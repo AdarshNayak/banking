@@ -1,5 +1,10 @@
 package main
 
+import (
+	//	"github.com/AdarshNayak/banking/app"
+	"github.com/AdarshNayak/banking/app"
+)
+
 /*  Reference for more info about HTTP server concepts:
 https://golangbyexample.com/basic-http-server-go/
 https://betterprogramming.pub/overview-of-server-side-http-apis-in-go-44f052737e4b
@@ -12,5 +17,5 @@ https://betterprogramming.pub/overview-of-server-side-http-apis-in-go-44f052737e
 
 // Keep only the application logic in main
 func main() {
-	Start()
+	app.Start()
 }
