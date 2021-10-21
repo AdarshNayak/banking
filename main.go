@@ -1,9 +1,8 @@
 package main
 
-import (
-	//	"github.com/AdarshNayak/banking/app"
-	"github.com/AdarshNayak/banking/app"
-)
+import "RestApiGoLangLearning/banking/app"
+
+//import "github.com/AdarshNayak/banking/app"
 
 /*  Reference for more info about HTTP server concepts:
 https://golangbyexample.com/basic-http-server-go/
