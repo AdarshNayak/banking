@@ -23,6 +23,7 @@ func greet(w http.ResponseWriter, r *http.Request) {
 // handler func to be called on endpoint customers -> to give list of cuostmers in json fomrat
 func getAllCustomersJsonType(w http.ResponseWriter, r *http.Request) {
 	customers := []Customer{
+		{"RamyaRao", "Bangalore", "560048"},
 		{"Ashish", "Bangalore", "560048"},
 		{"Juyal", "New Delhi", "560048"},
 	}
@@ -37,6 +38,7 @@ func getAllCustomersJsonType(w http.ResponseWriter, r *http.Request) {
 // handler func to be called on endpoint customers -> to give list of cuostmers in json fomrat
 func getAllCustomersXmlType(w http.ResponseWriter, r *http.Request) {
 	customers := []Customer{
+		{"RamyaRao", "Bangalore", "560048"},
 		{"Ashish", "Bangalore", "560048"},
 		{"Juyal", "New Delhi", "560048"},
 	}
